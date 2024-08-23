@@ -26,10 +26,22 @@
     <link href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css" rel="stylesheet">
     <!-- Custom CSS for Dark Mode -->
     <style>
+        html,
         body {
+            scroll-behavior: smooth;
+            height: 100%;
+        }
+
+        body {
+
             background-color: #121212;
             color: #e0e0e0;
             display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            align-items: stretch;
+            flex-wrap: nowrap;
         }
 
         .navbar,
@@ -100,7 +112,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Blank Space -->
     <div class="spacer"></div>
 
     <!-- Example Footer -->
