@@ -33,8 +33,12 @@
 
         .navbar,
         .footer {
-            margin-top: 20px;
             background-color: #1f1f1f;
+        }
+
+        .footer {
+            margin-: 20px;
+            text-align: center;
         }
 
         .card {
