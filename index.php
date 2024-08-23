@@ -60,6 +60,10 @@
             background-color: #3700b3;
             border-color: #3700b3;
         }
+
+        .spacer {
+            flex-grow: 1;
+        }
     </style>
 </head>
 
@@ -95,6 +99,8 @@
             </div>
         </div>
     </div>
+
+    <div class="spacer"></div>
 
     <!-- Example Footer -->
     <footer class="footer mt-auto py-3">
