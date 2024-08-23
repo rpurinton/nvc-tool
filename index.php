@@ -37,7 +37,7 @@
         }
 
         .footer {
-            margin-: 20px;
+            margin-top: 20px;
             text-align: center;
         }
 
