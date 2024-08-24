@@ -53,7 +53,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#featuresModal">Features</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -82,6 +82,33 @@
             <span class="text-muted">©2024 Giraffe Talk</span>
         </div>
     </footer>
+
+    <!-- Features Modal -->
+    <div class="modal fade" id="featuresModal" tabindex="-1" aria-labelledby="featuresModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="featuresModalLabel">Features</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li><strong>Real-Time Language Translation:</strong> Essential for converting "Jackal" to
+                            "Giraffe" language.</li>
+                        <li><strong>Interactive NVC Worksheet Generator:</strong> Key for guiding users in forming
+                            Observations, Feelings, Needs, and Requests.</li>
+                        <li><strong>Communication Style Meter:</strong> Important for visualizing and understanding tone
+                            nuances.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
