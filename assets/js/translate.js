@@ -1,11 +1,9 @@
 document.getElementById('translateButton').addEventListener('click', function () {
     var inputText = document.getElementById('inputText').value;
     var outputText = document.getElementById('outputText');
-    var progressBar = document.getElementById('progressBar');
 
     // Show progress bar
-    progressBar.style.display = 'block';
-    outputText.value = 'Loading...';
+    outputText.value = 'Translating...';
 
     // Prepare the data to be sent
     var data = JSON.stringify({ text: inputText });
@@ -23,8 +21,6 @@ document.getElementById('translateButton').addEventListener('click', function ()
             } else {
                 outputText.value = 'Error: Unable to translate text.';
             }
-            // Hide progress bar
-            progressBar.style.display = 'none';
         }
     };
 
