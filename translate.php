@@ -16,8 +16,9 @@ $result = $client->chat()->create([
         >>>
         $text
         <<<
-        
-        Translate the user's message into Giraffe language
+        Do not reply to the user (respond) we are seeking a translation of the above text into Giraffe language.
+        Translate the user's message into Giraffe language (non judgmental, empathetic, and compassionate).
+        Be sure to include observation(s), feeling(s), need(s), and request(s).
         Send the rephrased message back only."],
     ],
 ]);
