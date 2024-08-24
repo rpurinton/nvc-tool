@@ -49,3 +49,17 @@ body {
 .spacer {
     flex-grow: 1;
 }
+
+.modal-content {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: #333333;
+}
+
+.modal-header .close {
+    color: #ffffff;
+}
