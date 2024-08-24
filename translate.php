@@ -10,8 +10,15 @@ $client = OpenAI::client($openai_key);
 $result = $client->chat()->create([
     'model' => 'gpt-4o-2024-08-06',
     'messages' => [
-        ['role' => 'user', 'content' => $text],
-        ['role' => 'system', 'content' => 'Translate the above user text from Jackal Language to Giraffe Language (per Marshall Rosenbergs Non-Violent Communication (NVC) principles).'],
+        ['role' => 'system', 'content' => "
+        Referencing Marshall Rosenberg's Non-Violent Communication (NVC) principles...
+        The user (Jackal) input was:
+        >>>
+        $text
+        <<<
+        
+        Translate the user's message into Giraffe language
+        Send the rephrased message back only."],
     ],
 ]);
 
