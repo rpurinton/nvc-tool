@@ -56,7 +56,7 @@
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#featuresModal">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
                 </li>
             </ul>
         </div>
@@ -69,7 +69,7 @@
                 <h5 class="card-title">Welcome to Giraffe Talk</h5>
                 <p class="card-text">Our mission is to develop a straightforward and practical tool that empowers
                     individuals to communicate with empathy and understanding.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#aboutModal">Learn More</a>
             </div>
         </div>
     </div>
@@ -102,6 +102,48 @@
                         <li><strong>Communication Style Meter:</strong> Important for visualizing and understanding tone
                             nuances.</li>
                     </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">About Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Our Mission</h6>
+                    <p>Our mission is to develop a straightforward and practical tool that empowers individuals to
+                        communicate with empathy and understanding. We're committed to enhancing interpersonal
+                        connections by providing an accessible resource for applying Nonviolent Communication principles
+                        in everyday interactions.</p>
+                    <h6>Our Vision</h6>
+                    <p>Our vision is to foster a world where communication is guided by empathy and understanding,
+                        leading to more meaningful connections and mutual respect. By promoting the principles of
+                        Nonviolent Communication, we aim to inspire positive change in how individuals interact and
+                        resolve conflicts.</p>
+                    <h6>Our Values</h6>
+                    <p>Our values are centered around empathy, respect, simplicity, and accessibility. We believe in
+                        creating tools that enable compassionate communication, honoring diverse perspectives, and
+                        providing a straightforward and effective user experience for all.</p>
+                    <h6>Our Goals</h6>
+                    <p>Our goal is to create a user-friendly tool that empowers individuals to enhance their
+                        communication skills by implementing Nonviolent Communication principles. We aim to provide
+                        valuable features such as real-time translation and communication style insights, enabling users
+                        to improve their interactions and build more empathetic connections.</p>
+                    <h6>Contribute</h6>
+                    <p>Anyone can contribute to the development through our <a href="https://discord.gg/Vcd4PpjnyJ"
+                            target="_blank">Giraffe Talk (Dev) Discord Server</a> and <a
+                            href="https://github.com/rpurinton/nvc-tool" target="_blank">GitHub repository</a>.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
