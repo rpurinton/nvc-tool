@@ -63,3 +63,25 @@ body {
 .modal-header .close {
     color: #ffffff;
 }
+
+/* Custom styles for the translation section */
+#inputText,
+#outputText {
+    background-color: #121212;
+    color: #ffffff;
+    border: 1px solid #333333;
+}
+
+#translateButton {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#translateButton:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
