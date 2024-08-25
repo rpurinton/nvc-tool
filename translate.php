@@ -16,7 +16,7 @@ $result = $client->chat()->create([
     'messages' => [
         ['role' => 'system', 'content' => "
         Referencing Marshall Rosenberg's Non-Violent Communication (NVC) principles 
-        The user (Jackal) input was:
+        The user input was:
         >>>
         $text
         <<<
@@ -24,7 +24,7 @@ $result = $client->chat()->create([
         If 100% - Congratulate the user
         If less than 100% - bulletpoint the reasons why citing specific examples
         Also provide serveral alternative responses that are more complaint with NVC principles
-        including options for formal, informal, causual, slag, poem, rap lyrics, and professional settings."],
+        including options for formal, informal, causual, playful, and professional settings."],
     ],
 ]);
 
