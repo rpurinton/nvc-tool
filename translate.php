@@ -24,7 +24,7 @@ $result = $client->chat()->create([
         If 100% - Congratulate the user
         If less than 100% - bulletpoint the reasons why citing specific examples
         Also provide serveral alternative responses that are more complaint with NVC principles
-        including options for formal, informal, causual, and professional settings."],
+        including options for formal, informal, causual, slag, poem, rap lyrics, and professional settings."],
     ],
 ]);
 
