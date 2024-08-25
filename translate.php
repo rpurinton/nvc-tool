@@ -15,15 +15,16 @@ $result = $client->chat()->create([
     'frequency_penalty' => 0.0,
     'messages' => [
         ['role' => 'system', 'content' => "
-        Referencing Marshall Rosenberg's Non-Violent Communication (NVC) principles...
+        Referencing Marshall Rosenberg's Non-Violent Communication (NVC) principles 
         The user (Jackal) input was:
         >>>
         $text
         <<<
-        Do not reply to the user (respond) we are seeking a translation of the above text into Giraffe language.
-        Translate the user's message into Giraffe language (non judgmental, empathetic, and compassionate).
-        Be sure to include observation(s), feeling(s), need(s), and request(s).
-        Send the rephrased message back only."],
+        Assign a score from 0 to 100% on how complaint the user input is with NVC principles.
+        If 100% - Congratulate the user
+        If less than 100% - bulletpoint the reasons why citing specific examples
+        Also provide serveral alternative responses that are more complaint with NVC principles
+        including options for formal, informal, causual, and professional settings."],
     ],
 ]);
 
