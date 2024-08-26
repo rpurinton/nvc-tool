@@ -28,6 +28,7 @@ $result = $client->chat()->create([
         Write the entire response in HTML format."],
     ],
 ]);
-
 $response = $result->choices[0]->message->content;
+$response = str_replace('```html', '', $response);
+$response = str_replace('```', '', $response);
 echo json_encode(['response' => $response]);
