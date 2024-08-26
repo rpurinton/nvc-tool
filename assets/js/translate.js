@@ -17,9 +17,9 @@ document.getElementById('evaluateButton').addEventListener('click', function () 
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
                 var response = JSON.parse(xhr.responseText);
-                outputText.value = response.response;
+                outputText.innerHTML = response.response;
             } else {
-                outputText.value = 'Error: Unable to analyze text.  Please try again!';
+                outputText.innerHTML = 'Error: Unable to analyze text.  Please try again!';
             }
         }
     };
