@@ -78,16 +78,12 @@
     <div class="container mt-5">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Translate Text</h5>
                 <div class="form-group">
-                    <label for="inputText">Input Text</label>
-                    <textarea class="form-control" id="inputText"
-                        rows="3" placeholder="Write your beliefs, feelings, and thoughts here then click Evaluate..."></textarea>
+                    <textarea class="form-control" id="inputText" rows="3"
+                        placeholder="Write some messages here, then click Evaluate..."></textarea>
                 </div>
-                <button id="translateButton" class="btn btn-primary">Translate</button>
-                <div class="form-group mt-3">
-                    <label for="outputText">Output Text (Giraffe Language)</label>
-                    <textarea class="form-control" id="outputText" rows="5" readonly></textarea>
+                <button id="evaluateButton" class="btn btn-primary">Evaluate</button>
+                <div class="form-group mt-3" id="outputText">
                 </div>
             </div>
         </div>

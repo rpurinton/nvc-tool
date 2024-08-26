@@ -1,9 +1,9 @@
-document.getElementById('translateButton').addEventListener('click', function () {
+document.getElementById('evaluateButton').addEventListener('click', function () {
     var inputText = document.getElementById('inputText').value;
     var outputText = document.getElementById('outputText');
 
     // Show progress bar
-    outputText.value = 'Translating...';
+    outputText.innerHTML = 'Analyzing... Please wait...';
 
     // Prepare the data to be sent
     var data = JSON.stringify({ text: inputText });
@@ -19,7 +19,7 @@ document.getElementById('translateButton').addEventListener('click', function ()
                 var response = JSON.parse(xhr.responseText);
                 outputText.value = response.response;
             } else {
-                outputText.value = 'Error: Unable to translate text.';
+                outputText.value = 'Error: Unable to analyze text.  Please try again!';
             }
         }
     };
