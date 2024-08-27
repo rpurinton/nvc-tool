@@ -20,11 +20,11 @@ $result = $client->chat()->create([
         >>>
         $text
         <<<
-        Assign a score from 0 to 100% on how complaint the user input is with NVC principles.
+        Assign a score from 0 to 100% on how complaint the user input is with NVC principles
         If 100% - Congratulate the user
         If less than 100% - bulletpoint the reasons why citing specific examples
         Also provide serveral alternative responses that are more complaint with NVC principles
-        including options for formal, informal, causual, playful, and professional settings.
+        including options for formal, informal, causual, child, and professional settings.
         Write the entire response in HTML format."],
     ],
 ]);
